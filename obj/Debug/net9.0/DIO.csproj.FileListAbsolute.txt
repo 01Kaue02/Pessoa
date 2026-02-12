@@ -12,3 +12,4 @@ C:\DIO\obj\Debug\net9.0\refint\DIO.dll
 C:\DIO\obj\Debug\net9.0\DIO.pdb
 C:\DIO\obj\Debug\net9.0\DIO.genruntimeconfig.cache
 C:\DIO\obj\Debug\net9.0\ref\DIO.dll
+C:\DIO\obj\Debug\net9.0\DIO.sourcelink.json
