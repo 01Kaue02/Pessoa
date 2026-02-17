@@ -1,21 +1,66 @@
 ﻿using DIO.Models;
-
-int quantidade = 10;
-
-int quantidadecompra = 1;
-bool podeVender = quantidade >= quantidadecompra;
-
-Console.WriteLine($"Quantidade em estoque: {quantidade}");
-Console.WriteLine($"Quantidade solicitada: {quantidadecompra}");
-Console.WriteLine($"É possivel realizar a venda? {podeVender}");
-if (podeVender)
+Console.WriteLine("Digite uma letra");
+string? letra = Console.ReadLine();
+switch (letra)
 {
-    Console.WriteLine("Venda realizada com sucesso!");
-}
-else
-{
-    Console.WriteLine("Desculpe, não temos estoque suficiente para realizar a venda.");
-}
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+    Console.WriteLine("Vogal");
+    break;
+    default:
+    Console.WriteLine("Não é vogal");
+    break;
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int quantidade = 10;
+//int quantidadecompra = 09;
+//bool podeVender = quantidadecompra > 0 && quantidade >= quantidadecompra;
+//
+//Console.WriteLine($"Quantidade em estoque: {quantidade}");
+//Console.WriteLine($"Quantidade solicitada: {quantidadecompra}");
+//Console.WriteLine($"É possivel realizar a venda? {podeVender}");
+//if(quantidadecompra == 0)
+//{
+//    Console.WriteLine("A quantidade solicitada deve ser maior que zero.");
+//}
+//
+//else if (podeVender)
+//{
+//    Console.WriteLine("Venda realizada com sucesso!");
+//}
+//
+//else
+//{
+//    Console.WriteLine("Desculpe, não temos estoque suficiente para realizar a venda.");
+//}
 
 
 
