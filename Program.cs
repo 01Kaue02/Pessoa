@@ -1,20 +1,128 @@
 ﻿using DIO.Models;
-Console.WriteLine("Digite uma letra");
-string? letra = Console.ReadLine();
-switch (letra)
-{
-    case "a":
-    case "e":
-    case "i":
-    case "o":
-    case "u":
-    Console.WriteLine("Vogal");
-    break;
-    default:
-    Console.WriteLine("Não é vogal");
-    break;
 
-     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//bool choveu = false;
+//bool estaTarde = false;
+//
+//if (!choveu && !estaTarde)
+//{
+//    Console.WriteLine("Vou pedalar");
+//}
+//else
+//{
+//    Console.WriteLine("Vou pedalar um outro dia");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//bool possuiPresencaMinima = true;
+//double media = 7.5;
+////&& tudo tem que ser verdade tudo tem que dar certo, senão não vai validar.
+//if (possuiPresencaMinima && media>=7.5)
+//{
+//    Console.WriteLine("Aprovado");
+//}
+//else
+//{
+//    Console.WriteLine("Reprovado");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//bool MaiorIdade = false;
+//bool AutorizacaoDoResponsavel= true;
+//// || se qualquer um metodo for true  vai validar para entrada
+//if (MaiorIdade || AutorizacaoDoResponsavel)
+//{
+//    Console.WriteLine("Entrada liberada");
+//}
+//else
+//{
+//    Console.WriteLine("Entrada não liberada");
+//}
+//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Console.WriteLine("Digite uma letra");
+//string? letra = Console.ReadLine();
+//switch (letra)
+//{
+//    case "a":
+//    case "e":
+//    case "i":
+//    case "o":
+//    case "u":
+//    Console.WriteLine("Vogal");
+//    break;
+//    default:
+//    Console.WriteLine("Não é vogal");
+//    break;
+//
+//     }
 
 
 
