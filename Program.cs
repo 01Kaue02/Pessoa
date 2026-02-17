@@ -1,5 +1,11 @@
 ﻿using DIO.Models;
 
+Calculadora calc = new Calculadora();
+
+calc.Somar(10, 10);
+calc.Subtrair(10, 50);
+calc.Multiplicaar(10, 50);
+calc.Dividir(2, 2);
 
 
 
