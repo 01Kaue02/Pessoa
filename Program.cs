@@ -1,11 +1,38 @@
 ﻿using DIO.Models;
 
 Calculadora calc = new Calculadora();
+int numero =10;
+Console.WriteLine( numero);
+Console.WriteLine("Incrementando o 10");
+numero ++;
 
-calc.Somar(10, 10);
-calc.Subtrair(10, 50);
-calc.Multiplicaar(10, 50);
-calc.Dividir(2, 2);
+Console.WriteLine( numero);
+
+
+
+
+
+
+
+
+
+
+
+
+//calc.Seno(30);
+//calc.Coseno(30);
+//calc.Tangente(30);
+
+
+
+
+
+
+
+//calc.Somar(10, 10);
+//calc.Subtrair(10, 50);
+//calc.Multiplicaar(10, 50);
+//calc.Dividir(2, 2);
 
 
 
