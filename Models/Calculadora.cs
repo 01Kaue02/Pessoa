@@ -46,6 +46,10 @@ namespace DIO.Models
             double tangente = Math.Tan(radiano);
             Console.WriteLine($"Tangente de {angulo} = {Math.Round (tangente, 4)}");
         }
-        
+        public void RaizQua (double x )
+        {
+           double raiz = Math.Sqrt(x);
+            Console.WriteLine($" O valor da Raiz do {x} = {raiz}");
+        }
     }
 }

@@ -1,12 +1,28 @@
 ﻿using DIO.Models;
 
 Calculadora calc = new Calculadora();
-int numero =10;
-Console.WriteLine( numero);
-Console.WriteLine("Incrementando o 10");
-numero ++;
+calc.RaizQua (9);
 
-Console.WriteLine( numero);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int numero =10;
+//Console.WriteLine( numero);
+//Console.WriteLine("Incrementando o 10");
+//numero ++;
+//
+//Console.WriteLine( numero);
 
 
 
