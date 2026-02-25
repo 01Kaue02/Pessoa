@@ -1,7 +1,55 @@
 ﻿using DIO.Models;
 
-Calculadora calc = new Calculadora();
-calc.RaizQua (9);
+Pessoa p1 = new Pessoa();
+p1.Nome = "Kaue";
+p1.Idade = 66;
+p1.Apresentar();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//int[]arrayInteiros = new int[4];
+//
+//arrayInteiros[0] = 88;
+//arrayInteiros[1] = 33;
+//arrayInteiros[2] = 22;
+//arrayInteiros[3] = 0;
+//
+//for (int contador = 0; contador <arrayInteiros.Length; contador++)
+//{
+//    Console.WriteLine($"Posição N {contador} - {arrayInteiros[contador]}");
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Calculadora calc = new Calculadora();
+//calc.RaizQua (9);
 
 
 

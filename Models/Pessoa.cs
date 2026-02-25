@@ -9,12 +9,37 @@ namespace DIO.Models
 {
     public class Pessoa
     {
-        public string Nome { get; set; } ="";
-        public int Idade { get; set; }
+        private string? _nome;
+        private int _idade;
 
-        public void Apresentar()
+        public string Nome
         {
-            Console.WriteLine($"Olá, meu nome é {Nome}, e tenho {Idade} anos.");
+            get => _nome?.ToUpper() ??"";
+            set
+            {
+               if (value == "")
+                {
+                    throw new ArgumentException("O nome não pode ser vazio");
+                } 
+                _nome = value;
+            }
+        }
+        public int Idade
+        {
+            get => _idade;
+            set
+            {
+                 if (value < 0)
+                {
+                    throw new ArgumentException("Aidade não é valida, é menor que 0");
+                }
+                _idade = value;
+            }
+        }
+        public void Apresentar ()
+        {
+            Console.WriteLine($"Nome: {Nome}, Idade: {Idade}");
         }
     }
 }
+
