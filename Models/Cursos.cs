@@ -27,9 +27,11 @@ namespace DIO.Models
         }
         public void ListarAlunos()
         {
-            foreach (Pessoa aluno in Alunos)
-            {
-                Console.WriteLine(aluno.Nome);
+            for (int count = 0; count < Alunos.Count; count++)
+            {   
+                string texto = "Nº "+ count + " - " + Alunos[count].Nome;
+                Console.WriteLine(texto);
+                
             }
         }
     }

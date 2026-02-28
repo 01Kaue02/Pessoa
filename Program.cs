@@ -1,17 +1,18 @@
 ﻿using System.Runtime.Versioning;
 using DIO.Models;
 
-Pessoa p1 = new Pessoa();
-p1.Nome = "Kaue";
+Pessoa p1 = new Pessoa(nome:"Leonardo");
 
-Pessoa p2 = new Pessoa();
-p2.Nome = "luis";
+Pessoa p2 = new Pessoa(nome:"Kaue");
+
+Pessoa p3 = new Pessoa(nome:"Luis");
 
 Cursos cursodeingles = new Cursos();
 cursodeingles.Nome = "Ingles";
 
 cursodeingles.AdicionarAluno(p1);
 cursodeingles.AdicionarAluno(p2);
+cursodeingles.AdicionarAluno(p3);
 cursodeingles.ListarAlunos();
 
 
